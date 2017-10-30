@@ -1,0 +1,62 @@
+
+
+.textColor{
+  color:red;
+}
+.fontSize{
+  font-size:35px;
+}
+.font{
+  font-family:Arial, Sans-serif;
+}
+.uppercase{
+  text-transform:uppercase;
+}
+
+.lowercase{
+  text-transform:lowercase;
+}
+
+.caps{
+  text-transform:capitalize;
+}
+
+#abso{
+  position:absolute;
+  margin: 65px 100px 0;
+}
+
+#rela{
+  position:relative;
+  left: 30px;
+}
+
+#fixed{
+  position:fixed;
+  margin: 5px 800px 75px;
+}
+
+.box p{
+  background-color:green;
+  width: 320px;
+  padding: 10px;
+  border: 10px solid gray;
+  margin: 25px;
+  margin-top:50px;
+  margin-bottom:50px;
+  outline: 10px solid tomato;
+  text-align:center;
+}
+
+.parent>.child{
+  background-color:#ccc;
+}
+.child{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+#abso,#rela,#fixed{
+  color:tomato;
+}
