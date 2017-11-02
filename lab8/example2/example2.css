@@ -1,0 +1,33 @@
+body{
+  margin:5px 10px;
+}
+.bigBox{
+  border:2px dotted purple;
+  text-align:center;
+  padding-top:200px;
+  margin-bottom:0;
+}
+
+.greenText{
+  text-align:center;
+  color:green;
+}
+
+.moreText{
+  font-size:25px;
+  color:orange;
+}
+
+.moreText span{
+  color:red;
+  vertical-align:super;
+}
+
+.evenmoreText{
+  font-size:10px;
+  text-align:right;
+  color:purple;
+}
+.evenmoreText span{
+  color:beige;
+}
