@@ -1,0 +1,111 @@
+.aboutBg{
+  z-index:1;
+  background-image:url(../images/aboutbg.gif);
+  background-repeat:no-repeat;
+  background-size:100%;
+  height:1000px;
+  padding-top:100px;
+  background-color:#1899AA;
+}
+
+.nav{
+  border:5px solid #6CCCCF;
+}
+
+/*CONTENT=============================================*/
+
+.textbox{
+  background-color:#17A7C6;
+  margin:0 35%;
+  text-align:center;
+  border-radius:10px;
+  margin-top:100px;
+}
+.textbox > h3 {
+  color:#002233;
+  font-size:35px;
+  padding-top:30px;
+  margin:0;
+  text-decoration:underline;
+}
+
+.textbox > p {
+  font-size:30px;
+  padding-bottom:30px;
+  margin:0 10%;
+  padding-top:50px;
+}
+
+.textbox > img {
+  height:100%;
+  width:100%;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+
+.darkBg{
+  background-color:#002233;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.darkBg > h3{
+  font-size:35px;
+  padding-bottom:50px;
+}
+
+.darkBg > p{
+  font-size:25px;
+}
+
+.darkBg > h3, .darkBg > p{
+  margin:0 30%;
+  text-align:center;
+  color:#17A7C6;
+}
+
+.lightBg{
+  background-color:#1899AA;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.lightBg > h3{
+  font-size:35px;
+  padding-bottom:50px;
+}
+
+.lightBg > p{
+  font-size:25px;
+}
+
+.lightBg > h3, .lightBg > p{
+  margin:0 30%;
+  text-align:center;
+  color:#002233;
+}
+
+.footerABOUT{
+  background-color:#1899AA;
+  height:200px;
+}
+
+.footerABOUT > p {
+  text-align:center;
+  margin-top:0;
+  font-size:25px;
+  color:#002233;
+  padding-top:50px;
+}
+.footerABOUT > ul {
+  font-size:20px;
+  margin:0 40%;
+  text-align:center;
+  padding-left:0;
+}
+.footerABOUT > ul > li{
+  list-style:none;
+  display:inline;
+  padding:0 2%;
+  color:#002233;
+}
